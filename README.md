@@ -48,8 +48,7 @@ semantic-affordance-grounding/
 │   ├── group-ontology.ttl
 │   ├── inferred-results.ttl
 │   └── imports/
-│       ├── course-affordance.ttl
-│       └── course-alignment.ttl
+│       └── course-affordance.ttl
 ├── queries/
 │   ├── graspable_objects.rq
 │   └── task_objects.rq
@@ -76,7 +75,6 @@ The imported course ontology resources are:
 
 ```text
 ontology/imports/course-affordance.ttl
-ontology/imports/course-alignment.ttl
 ```
 
 The course ontology provides the shared AI Capstone vocabulary, including object classes, task-role classes, affordance classes, and semantic properties. Our group ontology reuses these terms instead of redefining them locally.
