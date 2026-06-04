@@ -4,7 +4,7 @@
 
 Group 06 Semantic Grounding Ontology for AI Capstone Tabletop Manipulation Tasks
 
-## Group Members
+## Group Members 
 
 * Member 1: 劉逢穎 112550077
 * Member 2: 蔡浚庭 112550005
@@ -250,3 +250,20 @@ results/graspable_objects_output.txt
 This ontology models semantic graspability at the task-concept level. It does not model full physical feasibility. For example, it does not check object mass, exact 3D geometry, collision constraints, grasp pose stability, gripper force limits, or policy success probability.
 
 Therefore, `cap:GraspableObject` means that the object is semantically grounded as graspable in the course ontology, not that every physical grasp attempt will succeed in all robot states.
+
+## Contributions
+
+* Member 2: 蔡浚庭 112550005 — README and Report
+Prepared the README and report documentation. This included explaining the repository structure, ontology design, namespace usage, reasoning workflow, SPARQL query results, expected inferred objects, and current modeling limitations.
+
+* Member 1: 劉逢穎 112550077 — Group Ontology Design
+Contributed to ontology/group-ontology.ttl by defining the Group 06 namespace, ontology metadata, task context, and baseline object instances for the AI Capstone tabletop manipulation tasks.
+
+* Member 3: 徐振豪 112550063 — Object and Affordance Modeling
+Contributed to ontology/group-ontology.ttl by modeling object types, task roles, affordance links, object labels, pose frames, and the OWL reasoning pattern for inferred graspable objects.
+
+* Member 4: 蔡懷恩 112550020 — Jena Reasoning and Query Testing
+Tested the ontology workflow using Apache Jena as a secondary check. This included validating Turtle files, running the reasoning/query pipeline, generating ontology/inferred-results.ttl, and saving SPARQL query outputs under results/.
+
+* Member 5: 何柏翰 112550028 — Protégé Reasoning Verification
+Verified the ontology using Protégé as the primary check. This included loading the combined ontology, running the reasoner, checking inferred graspable classes and objects, testing the SPARQL query through Protégé, and capturing verification screenshots
